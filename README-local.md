@@ -1,4 +1,4 @@
-[<img src="TDE-aarch64-gui.png"](TDE-aarch64-gui.png)
+[<img src="TDE-aarch64-gui.png">](TDE-aarch64-gui.png)
 ... a TDE desktop, cross compiled for aarch64, running on a RPi3.
 
 ---
