@@ -29,7 +29,8 @@ src - to hold all the source tarballs, either pre-downloaded or downloaded durin
 ```
 Other scripts:  
 ```
-get-source.sh - a chunk of common code for the SlackBuilds - used for getting the source archive, setting FLAGS, creating build directories.
+get-source.sh - a chunk of common code for the SlackBuilds - used for getting the source archive,  
+setting FLAGS, creating build directories.
 ```
 There is an override in the Misc SlackBuilds for non-trinity source archive URLs. Non-trinity builds have been included where a TDE package requires a dependency that is not in Slackware, or where it's an alternative to a TDE package.
 
