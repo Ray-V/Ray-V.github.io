@@ -53,7 +53,7 @@ See https://wiki.trinitydesktop.org/How_to_Build_TDE_Core_Modules for more infor
 
 ***Building a pre-release from snapshot sources***
 
-This is similar to the build for a release version, but the sources are taken from the TDE cgit repository @ https://git.trinitydesktop.org/cgit/\<package>.
+This is similar to the build for a release version, but the sources are taken from the TDE cgit repository @ https://git.trinitydesktop.org/cgit/{package}.
 
 ---
 
