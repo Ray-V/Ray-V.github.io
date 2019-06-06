@@ -1,4 +1,4 @@
-[<img src="https://ray-v.github.io/tde-slackbuilds/images/TDE-aarch64-gui.png" alt="" style="display:block;margin:auto;width:100%;max-width:600">](https://ray-v.github.io/tde-slackbuilds/images/TDE-aarch64-gui.png)
+[<img src="https://ray-v.github.io/TDE-aarch64-gui.png" alt="" style="display:block;margin:auto;width:100%;max-width:600">](https://ray-v.github.io/TDE-aarch64-gui.png)
 ... a TDE desktop, cross compiled for aarch64, running on a RPi3.
 
 ---
