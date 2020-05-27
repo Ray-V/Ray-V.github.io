@@ -1,0 +1,28 @@
+--- kdeutils-3.5.10/ark/archiveformatinfo.cpp
++++ kdeutils-3.5.10/ark/archiveformatinfo.cpp
+@@ -55 +54,0 @@
+-  addFormatInfo( TAR_FORMAT, "application/x-tbz2", ".tar.bz2" );
+--- kdeutils-3.5.10/ark/ark.desktop
++++ kdeutils-3.5.10/ark/ark.desktop
+@@ -2 +2 @@
+-MimeType=application/x-gzip;application/x-lha;application/x-tar;application/x-tgz;application/x-tbz;application/x-tbz2;application/x-zip;application/zip;application/x-bzip;application/x-tzo;application/x-lzop;application/x-rar;application/x-zoo;application/x-tarz;application/x-archive;application/x-bzip2;application/x-jar;application/x-deb;application/x-ace;application/x-7z;application/x-arc;application/x-arj;application/x-compress;application/x-cpio;application/x-pak;application/x-zip-compressed;application/x-lzma;application/x-xz;application/x-tlz;application/x-txz
++MimeType=application/x-gzip;application/x-lha;application/x-tar;application/x-tgz;application/x-tbz;application/x-zip;application/zip;application/x-bzip;application/x-tzo;application/x-lzop;application/x-rar;application/x-zoo;application/x-tarz;application/x-archive;application/x-bzip2;application/x-jar;application/x-deb;application/x-ace;application/x-7z;application/x-arc;application/x-arj;application/x-compress;application/x-cpio;application/x-pak;application/x-zip-compressed;application/x-lzma;application/x-xz;application/x-tlz;application/x-txz
+--- kdeutils-3.5.10/ark/ark_part.desktop
++++ kdeutils-3.5.10/ark/ark_part.desktop
+@@ -2 +2 @@
+-MimeType=application/x-gzip;application/x-lha;application/x-tar;application/x-tgz;application/x-tbz;application/x-tbz2;application/x-zip;application/x-bzip;application/x-tzo;application/x-lzop;application/x-rar;application/x-zoo;application/x-tarz;application/x-archive;application/x-bzip2;application/x-jar;application/x-deb;application/x-ace;application/x-7z;application/x-arc;application/x-arj;application/x-compress;application/x-cpio;application/x-pak;application/x-lzma;application/x-xz;application/x-tlz;application/x-txz
++MimeType=application/x-gzip;application/x-lha;application/x-tar;application/x-tgz;application/x-tbz;application/x-zip;application/x-bzip;application/x-tzo;application/x-lzop;application/x-rar;application/x-zoo;application/x-tarz;application/x-archive;application/x-bzip2;application/x-jar;application/x-deb;application/x-ace;application/x-7z;application/x-arc;application/x-arj;application/x-compress;application/x-cpio;application/x-pak;application/x-lzma;application/x-xz;application/x-tlz;application/x-txz
+--- kdeutils-3.5.10/superkaramba/src/sknewstuff.cpp
++++ kdeutils-3.5.10/superkaramba/src/sknewstuff.cpp
+@@ -67 +66,0 @@
+-      result->name() == "application/x-tbz2" ||
+--- kdeutils-3.5.10/ark/tar.cpp
++++ kdeutils-3.5.10/ark/tar.cpp
+@@ -94,7 +93,0 @@
+-    if ( m_fileMimeType == "application/x-tbz2" )
+-    {
+-        // ark treats .tar.bz2 as x-tbz, instead of duplicating the mimetype
+-        // let's just alias it to the one we already handle.
+-        m_fileMimeType = "application/x-tbz";
+-    }
+-
